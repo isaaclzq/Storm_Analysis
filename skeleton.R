@@ -1,4 +1,3 @@
-dir.create("code", showWarnings = TRUE)
 dir.create("rawdata", showWarnings = TRUE)
 dir.create("data", showWarnings = TRUE)
 dir.create("report", showWarnings = TRUE)

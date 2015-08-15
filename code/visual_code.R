@@ -82,7 +82,7 @@ mapData<-map_data('world')
 
 globalMap<- ggplot(clean, aes(x=Longitude, y=Latitude, group=Serial_Num)) +
   geom_path(data=clean, aes(group=Serial_Num, colour=Wind.WMO.), alpha=0.5,size=0.5) +
-  geom_polygon(data=mapdata, aes(x=long, y=lat, group=group),
+  geom_polygon(data=mapData, aes(x=long, y=lat, group=group),
                fill='#000050', colour='#000050', size=0.5) +
   ggtitle('Trajectory of storms from 1980 to 2010')+
   scale_color_continuous(name='Wind (knot)',low = '#E68A00',high = '#4C2E00',
@@ -191,7 +191,7 @@ map1990 <- ggplot(traj1990, aes(x=Longitude, y=Latitude, group=Serial_Num)) +
 
 map1990
 
-pdf("images/gstormsIn1990s.pdf") # open device
+pdf("images/stormsIn1990s.pdf") # open device
 map1990 # plot something 
 dev.off() # close device
 

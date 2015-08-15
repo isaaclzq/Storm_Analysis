@@ -199,7 +199,7 @@ colnames(annual)<-c('Avg','Std.Dev','25th','50th','75th')
 rownames(annual)<-c('35 knots','64 knots', '96 knots')
 annual = signif(annual, 4)
 annual<-as.table(annual)
-
+annual
 ```
 
 \newpage
