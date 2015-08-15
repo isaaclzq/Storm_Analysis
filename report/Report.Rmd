@@ -424,5 +424,7 @@ grid.raster(readPNG("../images/stormsIn2000s.png"))
 ```
 
 Extra Credit:
-Github: 
-LinkedIn:
+
+Github: https://github.com/isaaclzq/stat133_project.git
+
+LinkedIn: https://www.linkedin.com/pulse/storm-project-tong-zhang?trk=prof-post
