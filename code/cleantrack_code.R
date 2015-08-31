@@ -5,11 +5,6 @@
 # Data: International Best Track Archive for Climate Stewardship (IBTrACS)
 # ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r06/wmo/hurdat_format/basin/
 # Basin.NA.ibtracs_hurdat.v03r06.hdat
-
-# =============================================================================
-
-# Name:Tong Zhang 24540972, Zhiqiang Liao 24229382
-
 # =============================================================================
 # Load packages
 library(XML)
