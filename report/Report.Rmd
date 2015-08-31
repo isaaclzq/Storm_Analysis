@@ -1,6 +1,5 @@
 ---
 title: "Final_Project_Report"
-author: "Tong Zhang, Zhiqiang Liao"
 date: "August 14, 2015"
 output: pdf_document
 ---

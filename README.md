@@ -1,9 +1,6 @@
 Description: 
      This project analyzes the frequency, location, duration of storms from East Pacific and North Altantic from 1980s to 2010s. Furthermore, this project reconstructs the trajectory of each storm from 1980s to 2010s.
 
-Author: 
-     Tong Zhang, UC Berkeley, Zhiqiang Liao, UC Berkeley
-
 Organization: 
      code: containing all the script files, 
      data: containing csv files that produced by script files, 
